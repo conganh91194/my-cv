@@ -27,7 +27,7 @@ function App() {
   const handleChangeStatus = (e) => {
     value.status = e.target.value;
   };
-
+// aloooooo test commit
   return (
     <div className="App">
       <input placeholder="Date" type="date" />
