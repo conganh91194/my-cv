@@ -39,7 +39,9 @@ function App() {
           {listTodo.map((item, index) => {
             return (
               <li key={index}>
-               20/10/2022 -   {item.name} - {item.status} <a style={{ color: "red" }}>Xóa</a><a style={{ color: "blue" }}>edit</a>
+                20/10/2022 - {item.name} - {item.status}{" "}
+                <a style={{ color: "red" }}>Xóa</a>
+                <a style={{ color: "blue" }}>edit</a>
               </li>
             );
           })}
